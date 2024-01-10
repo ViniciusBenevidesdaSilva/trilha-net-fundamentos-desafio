@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" modified="2024-01-10T22:11:24.272Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="N3wUPG-F5YzyKALB6aiC" version="22.1.18" type="device">
+  <diagram name="Entidades" id="d6gdCRZ_aHt71Y3ckht7">
+    <mxGraphModel dx="1914" dy="1187" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-Tan3a7J-cr3dUUWGE22-2" value="Usuários" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-920" y="-40" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-Tan3a7J-cr3dUUWGE22-3" value="+Usuario Id&lt;br&gt;+Nome&lt;br&gt;+Email&lt;br&gt;+Senha" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="-Tan3a7J-cr3dUUWGE22-2">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-Tan3a7J-cr3dUUWGE22-4" value="Estacionamentos" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-718" y="-40" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="-Tan3a7J-cr3dUUWGE22-5" value="+Estacionamento Id&lt;br&gt;+Descrição&lt;br&gt;+Preço Inicial&lt;br&gt;+Preço por Hora&lt;br&gt;+ Quantidade de Vagas" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="-Tan3a7J-cr3dUUWGE22-4">
+          <mxGeometry y="50" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-Tan3a7J-cr3dUUWGE22-8" value="Veículos" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-718" y="131" width="160" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="-Tan3a7J-cr3dUUWGE22-9" value="+Veículo Id&lt;br&gt;+Placa" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="-Tan3a7J-cr3dUUWGE22-8">
+          <mxGeometry y="50" width="160" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="-Tan3a7J-cr3dUUWGE22-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="-Tan3a7J-cr3dUUWGE22-12" target="-Tan3a7J-cr3dUUWGE22-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Tan3a7J-cr3dUUWGE22-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="-Tan3a7J-cr3dUUWGE22-12" target="-Tan3a7J-cr3dUUWGE22-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Tan3a7J-cr3dUUWGE22-12" value="Transação" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-475" y="24" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="-Tan3a7J-cr3dUUWGE22-13" value="+Transação Id&lt;br&gt;+Estacionamento Id&lt;br&gt;+Veículo Id&lt;br&gt;+Data Hora Entrada&lt;br&gt;+Data Hora Saída&lt;br&gt;+Valor Pago" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="-Tan3a7J-cr3dUUWGE22-12">
+          <mxGeometry y="50" width="160" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
