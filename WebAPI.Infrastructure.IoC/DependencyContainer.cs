@@ -27,6 +27,7 @@ public class DependencyContainer
             var mapperConfiguration = new MapperConfiguration(mc =>
             {
                 mc.AddProfile<UsuarioProfile>();
+                mc.AddProfile<EstacionamentoProfile>();
             });
 
             return mapperConfiguration.CreateMapper();
@@ -34,8 +35,10 @@ public class DependencyContainer
 
         // Application Layer
         services.AddScoped<IUsuarioService, UsuarioService>();
+        services.AddScoped<IEstacionamentoService, EstacionamentoService>();
 
         // Data Layer
         services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+        services.AddScoped<IEstacionamentoRepository, EstacionamentoRepository>();
     }
 }

@@ -74,7 +74,6 @@ public class UsuarioService : IUsuarioService
         if (log.Count > 0)
             throw new Exception("Usuário inválido: " + String.Join("; ", log));
 
-        usuario.Id = 0;
         var usuarioModel = _mapper.Map<UsuarioViewModel, Usuario>(usuario);
         return await _usuarioRepository.CreateAsync(usuarioModel);
     }

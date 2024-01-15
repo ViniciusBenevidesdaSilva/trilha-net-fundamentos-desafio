@@ -39,7 +39,7 @@ public class UsuarioRepository : IUsuarioRepository
 
     public async Task<Usuario> UpdateAsync(Usuario usuario)
     {
-        if(usuario == null)
+        if(usuario is null)
             throw new ArgumentNullException(nameof(usuario), "O objeto usuário estava vazio");
 
         _context.Usuarios.Update(usuario);
@@ -52,8 +52,8 @@ public class UsuarioRepository : IUsuarioRepository
     {
         var usuario = await FindByIdAsync(id);
 
-        if (usuario == null)
-            throw new ArgumentNullException(nameof(usuario), $"Usuário de Id {id} não encontrado");
+        if (usuario is null)
+            throw new Exception($"Usuário de Id {id} não encontrado");
 
         _context.Usuarios.Remove(usuario);
         await _context.SaveChangesAsync();

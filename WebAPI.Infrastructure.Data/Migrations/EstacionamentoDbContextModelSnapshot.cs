@@ -21,6 +21,32 @@ namespace WebAPI.Infrastructure.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("WebAPI.Domain.Model.Estacionamento", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Descricao")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<double>("PrecoInicial")
+                        .HasColumnType("float");
+
+                    b.Property<double>("PrecoPorHora")
+                        .HasColumnType("float");
+
+                    b.Property<int>("QtdVagas")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Estacionamentos");
+                });
+
             modelBuilder.Entity("WebAPI.Domain.Model.Usuario", b =>
                 {
                     b.Property<int>("Id")

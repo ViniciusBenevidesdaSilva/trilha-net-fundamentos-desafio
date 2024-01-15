@@ -30,7 +30,7 @@ public class UsuarioController : ControllerBase
         }
     }
 
-    [HttpGet("{id}", Name = "GetById")]
+    [HttpGet("{id}", Name = "GetUsuarioById")]
     public async Task<ActionResult<UsuarioViewModel>> GetById(int id)
     {
         try
@@ -85,7 +85,7 @@ public class UsuarioController : ControllerBase
         try
         {
             var id = await _usuarioService.CreateAsync(usuario);
-            return CreatedAtRoute("GetById", new { id = id }, usuario);
+            return CreatedAtRoute("GetUsuarioById", new { id = id }, usuario);
         }
         catch (Exception ex)
         {
@@ -108,7 +108,7 @@ public class UsuarioController : ControllerBase
     }
 
     [HttpDelete("{id}")]
-    public async Task<ActionResult> Apagar(int id)
+    public async Task<ActionResult> Delete(int id)
     {
         try
         {
