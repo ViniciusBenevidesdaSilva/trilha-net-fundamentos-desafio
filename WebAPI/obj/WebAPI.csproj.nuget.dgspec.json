@@ -4,6 +4,231 @@
     "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
+    "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebAPI.Application\\WebAPI.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebAPI.Application\\WebAPI.Application.csproj",
+        "projectName": "WebAPI.Application",
+        "projectPath": "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebAPI.Application\\WebAPI.Application.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebAPI.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebApp.Domain\\WebAPI.Domain.csproj": {
+                "projectPath": "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebApp.Domain\\WebAPI.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebAPI.Infrastructure.Data\\WebAPI.Infrastructure.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebAPI.Infrastructure.Data\\WebAPI.Infrastructure.Data.csproj",
+        "projectName": "WebAPI.Infrastructure.Data",
+        "projectPath": "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebAPI.Infrastructure.Data\\WebAPI.Infrastructure.Data.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebAPI.Infrastructure.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebApp.Domain\\WebAPI.Domain.csproj": {
+                "projectPath": "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebApp.Domain\\WebAPI.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebAPI.Infrastructure.IoC\\WebAPI.Infrastructure.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebAPI.Infrastructure.IoC\\WebAPI.Infrastructure.IoC.csproj",
+        "projectName": "WebAPI.Infrastructure.IoC",
+        "projectPath": "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebAPI.Infrastructure.IoC\\WebAPI.Infrastructure.IoC.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebAPI.Infrastructure.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebAPI.Application\\WebAPI.Application.csproj": {
+                "projectPath": "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebAPI.Application\\WebAPI.Application.csproj"
+              },
+              "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebAPI.Infrastructure.Data\\WebAPI.Infrastructure.Data.csproj": {
+                "projectPath": "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebAPI.Infrastructure.Data\\WebAPI.Infrastructure.Data.csproj"
+              },
+              "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebApp.Domain\\WebAPI.Domain.csproj": {
+                "projectPath": "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebApp.Domain\\WebAPI.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -12,6 +237,80 @@
         "projectPath": "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebAPI.Infrastructure.IoC\\WebAPI.Infrastructure.IoC.csproj": {
+                "projectPath": "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebAPI.Infrastructure.IoC\\WebAPI.Infrastructure.IoC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebApp.Domain\\WebAPI.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebApp.Domain\\WebAPI.Domain.csproj",
+        "projectName": "WebAPI.Domain",
+        "projectPath": "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebApp.Domain\\WebAPI.Domain.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,12 +338,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.5.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -57,9 +350,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

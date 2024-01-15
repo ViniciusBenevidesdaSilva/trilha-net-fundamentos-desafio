@@ -1,0 +1,17 @@
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebAPI.Infrastructure.Data\obj\Debug\net6.0\WebAPI.Infrastructure.Data.csproj.AssemblyReference.cache
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebAPI.Infrastructure.Data\obj\Debug\net6.0\WebAPI.Infrastructure.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebAPI.Infrastructure.Data\obj\Debug\net6.0\WebAPI.Infrastructure.Data.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebAPI.Infrastructure.Data\obj\Debug\net6.0\WebAPI.Infrastructure.Data.AssemblyInfo.cs
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebAPI.Infrastructure.Data\obj\Debug\net6.0\WebAPI.Infrastructure.Data.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebAPI.Infrastructure.Data\bin\Debug\net6.0\WebAPI.Infrastructure.Data.deps.json
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebAPI.Infrastructure.Data\bin\Debug\net6.0\WebAPI.Infrastructure.Data.runtimeconfig.json
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebAPI.Infrastructure.Data\bin\Debug\net6.0\WebAPI.Infrastructure.Data.dll
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebAPI.Infrastructure.Data\bin\Debug\net6.0\WebAPI.Infrastructure.Data.pdb
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebAPI.Infrastructure.Data\obj\Debug\net6.0\WebAPI.Infrastructure.Data.csproj.CopyComplete
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebAPI.Infrastructure.Data\obj\Debug\net6.0\WebAPI.Infrastructure.Data.dll
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebAPI.Infrastructure.Data\obj\Debug\net6.0\refint\WebAPI.Infrastructure.Data.dll
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebAPI.Infrastructure.Data\obj\Debug\net6.0\WebAPI.Infrastructure.Data.pdb
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebAPI.Infrastructure.Data\obj\Debug\net6.0\WebAPI.Infrastructure.Data.genruntimeconfig.cache
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebAPI.Infrastructure.Data\obj\Debug\net6.0\ref\WebAPI.Infrastructure.Data.dll
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebAPI.Infrastructure.Data\bin\Debug\net6.0\WebAPI.Domain.dll
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebAPI.Infrastructure.Data\bin\Debug\net6.0\WebAPI.Domain.pdb

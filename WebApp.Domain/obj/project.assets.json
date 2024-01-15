@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebApp.Domain\\WebApp.Domain.csproj",
-      "projectName": "WebApp.Domain",
-      "projectPath": "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebApp.Domain\\WebApp.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebApp.Domain\\WebAPI.Domain.csproj",
+      "projectName": "WebAPI.Domain",
+      "projectPath": "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebApp.Domain\\WebAPI.Domain.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebApp.Domain\\obj\\",
       "projectStyle": "PackageReference",

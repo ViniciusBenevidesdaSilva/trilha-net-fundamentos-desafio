@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "LPp0Ln3+zSaET5TB8rj4oNhe3bVJrYhgkP4a+c/jO0kg9idIIjFSg2bB8Zps5RRWWZH6S9XQIi6HIs4dYfAkwA==",
+  "dgSpecHash": "IotvEIycJxZlFYA6Mcs501ubGn6u+AoJN/28PBqXg4s5A6wmA3HRn5yi8QWPhixmBJl1Cru466Ek4dfAjhELdw==",
   "success": true,
   "projectFilePath": "C:\\Users\\HP\\Documents\\Git\\DIO\\02 - trilha-net-fundamentos-desafio\\trilha-net-fundamentos-desafio\\WebAPI.Application\\WebAPI.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,0 +1,11 @@
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebApp.Domain\bin\Debug\net6.0\WebApp.Domain.deps.json
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebApp.Domain\bin\Debug\net6.0\WebApp.Domain.dll
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebApp.Domain\bin\Debug\net6.0\WebApp.Domain.pdb
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebApp.Domain\obj\Debug\net6.0\WebApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebApp.Domain\obj\Debug\net6.0\WebApp.Domain.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebApp.Domain\obj\Debug\net6.0\WebApp.Domain.AssemblyInfo.cs
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebApp.Domain\obj\Debug\net6.0\WebApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebApp.Domain\obj\Debug\net6.0\WebApp.Domain.dll
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebApp.Domain\obj\Debug\net6.0\refint\WebApp.Domain.dll
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebApp.Domain\obj\Debug\net6.0\WebApp.Domain.pdb
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebApp.Domain\obj\Debug\net6.0\ref\WebApp.Domain.dll

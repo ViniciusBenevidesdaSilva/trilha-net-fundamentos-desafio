@@ -1,0 +1,10 @@
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebAPI.DataBase\bin\Debug\WebAPI.DataBase.dacpac
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebAPI.DataBase\bin\Debug\WebAPI.DataBase.dll
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebAPI.DataBase\bin\Debug\WebAPI.DataBase.pdb
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebAPI.DataBase\obj\Debug\WebAPI.DataBase.sqlproj.AssemblyReference.cache
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebAPI.DataBase\obj\Debug\WebAPI.DataBase.dll
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebAPI.DataBase\obj\Debug\WebAPI.DataBase.pdb
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebAPI.DataBase\obj\Debug\Model.xml
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebAPI.DataBase\obj\Debug\refactor.xml
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebAPI.DataBase\obj\Debug\postdeploy.sql
+C:\Users\HP\Documents\Git\DIO\02 - trilha-net-fundamentos-desafio\trilha-net-fundamentos-desafio\WebAPI.DataBase\obj\Debug\predeploy.sql
