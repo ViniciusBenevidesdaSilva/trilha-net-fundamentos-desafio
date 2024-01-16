@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WebAPI.Infrastructure.Data.Data;
 
@@ -10,9 +11,10 @@ using WebAPI.Infrastructure.Data.Data;
 namespace WebAPI.Infrastructure.Data.Migrations
 {
     [DbContext(typeof(EstacionamentoDbContext))]
-    partial class EstacionamentoDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240116193427_CriacaoTabelaVeiculo")]
+    partial class CriacaoTabelaVeiculo
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

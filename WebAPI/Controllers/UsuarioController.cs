@@ -36,7 +36,7 @@ public class UsuarioController : ControllerBase
         try
         {
             var usuario = await _usuarioService.GetUsuarioByIdAsync(id);
-            if (usuario == null)
+            if (usuario is null)
                 return NotFound();
 
             return Ok(usuario);
@@ -53,7 +53,7 @@ public class UsuarioController : ControllerBase
         try
         {
             var usuario = await _usuarioService.GetUsuarioByEmailAsync(email);
-            if (usuario == null)
+            if (usuario is null)
                 return NotFound();
 
             return Ok(usuario);

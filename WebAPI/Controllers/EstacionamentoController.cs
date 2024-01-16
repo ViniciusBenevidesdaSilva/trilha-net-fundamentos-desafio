@@ -37,7 +37,7 @@ public class EstacionamentoController : ControllerBase
         try
         {
             var estacionamento = await _estacionamentoService.GetEstacionamentoByIdAsync(id);
-            if (estacionamento == null)
+            if (estacionamento is null)
                 return NotFound();
 
             return Ok(estacionamento);

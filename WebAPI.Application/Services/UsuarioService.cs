@@ -56,7 +56,7 @@ public class UsuarioService : IUsuarioService
 
         if(usuarioEmail is not null)
         {
-            if (usuario.Id == 0 || usuario.Id == usuarioEmail.Id)
+            if (usuario.Id == 0 || usuario.Id != usuarioEmail.Id)
                 retorno.Add("Email já cadastrado");
         }
 
