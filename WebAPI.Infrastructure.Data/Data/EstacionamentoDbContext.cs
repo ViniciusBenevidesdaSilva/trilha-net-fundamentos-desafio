@@ -12,12 +12,14 @@ public class EstacionamentoDbContext : DbContext
     public DbSet<Usuario> Usuarios { get; set; }
     public DbSet<Estacionamento> Estacionamentos { get; set; }
     public DbSet<Veiculo> Veiculos { get; set; }
+    public DbSet<Transacao> Transacoes { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.ApplyConfiguration(new UsuarioMap());
         modelBuilder.ApplyConfiguration(new EstacionamentoMap());
         modelBuilder.ApplyConfiguration(new VeiculoMap());
+        modelBuilder.ApplyConfiguration(new TransacaoMap());
 
         base.OnModelCreating(modelBuilder);
     }

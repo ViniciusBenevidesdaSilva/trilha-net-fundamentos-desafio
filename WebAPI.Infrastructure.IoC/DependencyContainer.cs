@@ -29,6 +29,7 @@ public class DependencyContainer
                 mc.AddProfile<UsuarioProfile>();
                 mc.AddProfile<EstacionamentoProfile>();
                 mc.AddProfile<VeiculoProfile>();
+                mc.AddProfile<TransacaoProfile>();
             });
 
             return mapperConfiguration.CreateMapper();
@@ -38,10 +39,12 @@ public class DependencyContainer
         services.AddScoped<IUsuarioService, UsuarioService>();
         services.AddScoped<IEstacionamentoService, EstacionamentoService>();
         services.AddScoped<IVeiculoService, VeiculoService>();
+        services.AddScoped<ITransacaoService, TransacaoService>();
 
         // Data Layer
         services.AddScoped<IUsuarioRepository, UsuarioRepository>();
         services.AddScoped<IEstacionamentoRepository, EstacionamentoRepository>();
-        services.AddScoped<IVeiculoRepository, VeiculoRepository>();
+        services.AddScoped<IVeiculoRepository, VeiculoRepository>(); 
+        services.AddScoped<ITransacaoRepository, TransacaoRepository>();
     }
 }
