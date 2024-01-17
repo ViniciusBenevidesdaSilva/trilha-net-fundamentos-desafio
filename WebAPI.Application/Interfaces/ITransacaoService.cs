@@ -16,6 +16,10 @@ public interface ITransacaoService
     Task<bool> IsVeiculoEstacionadoAsync(int veiculoId);
     Task<bool> IsVeiculoEstacionadoAsync(string veiculoPlaca);
 
+    Task<TransacaoViewModel> RegistrarEntradaAsync(string placaVeiculo, int estacionamentoId, DateTime? entrada = null);
+    Task<TransacaoViewModel> RegistrarSaidaAsync(string placaVeiculo, DateTime? saida = null);
+
+
     Task<int> CreateAsync(TransacaoViewModel transacao);
     Task<TransacaoViewModel> UpdateAsync(TransacaoViewModel transacao, int id);
     Task<bool> DeleteAsync(int id);

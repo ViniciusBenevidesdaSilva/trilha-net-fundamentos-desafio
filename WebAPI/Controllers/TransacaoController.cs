@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using WebAPI.Application.Interfaces;
 using WebAPI.Application.ViewModel;
+using WebAPI.Domain.Model;
 
 namespace WebAPI.Controllers;
 
@@ -138,6 +139,34 @@ public class TransacaoController : ControllerBase
         {
             var id = await _transacaoService.CreateAsync(transacao);
             return CreatedAtRoute("GetTransacaoById", new { id = id }, transacao);
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
+    }
+
+    [HttpPost("Entrada")]
+    public async Task<ActionResult> RegistrarEntrada(string placaVeiculo, int estacionamentoId, DateTime? entrada)
+    {
+        try
+        {
+            var transacao = await _transacaoService.RegistrarEntradaAsync(placaVeiculo, estacionamentoId, entrada);
+            return CreatedAtRoute("GetTransacaoById", new { id = transacao.Id }, transacao);
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
+    }
+
+    [HttpPost("Saida")]
+    public async Task<ActionResult> RegistrarSaida(string placaVeiculo, DateTime? saida)
+    {
+        try
+        {
+            var transacao = await _transacaoService.RegistrarSaidaAsync(placaVeiculo, saida);
+            return CreatedAtRoute("GetTransacaoById", new { id = transacao.Id }, transacao);
         }
         catch (Exception ex)
         {

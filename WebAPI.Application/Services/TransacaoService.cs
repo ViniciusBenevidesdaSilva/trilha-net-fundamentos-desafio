@@ -186,6 +186,57 @@ public class TransacaoService : ITransacaoService
         return _mapper.Map<Transacao, TransacaoViewModel>(retorno);
     }
 
+    public async Task<TransacaoViewModel> RegistrarEntradaAsync(string placaVeiculo, int estacionamentoId, DateTime? entrada = null)
+    {
+        entrada ??= DateTime.Now;
+
+        placaVeiculo = placaVeiculo.ToUpper();
+
+        var veiculo = await _veiculoRepository.FindByPlacaAsync(placaVeiculo);
+        var estacionamento = await _estacionamentoRepository.FindByIdAsync(estacionamentoId);
+
+        if(veiculo is null)
+            throw new Exception($"Veículo de placa {placaVeiculo} não encontrado");
+
+        if (estacionamento is null)
+            throw new Exception($"Estacionamento de Id {estacionamentoId} não encontrado");
+
+        var transacao = new TransacaoViewModel()
+        {
+            HoraEntrada = entrada,
+            EstacionamentoId = estacionamento.Id,
+            VeiculoId = veiculo.Id,
+        };
+        
+        transacao.Id = await CreateAsync(transacao);
+
+        return transacao;
+    }
+
+    public async Task<TransacaoViewModel> RegistrarSaidaAsync(string placaVeiculo, DateTime? saida = null)
+    {
+        saida ??= DateTime.Now;
+
+        placaVeiculo = placaVeiculo.ToUpper();
+
+        var veiculo = await _veiculoRepository.FindByPlacaAsync(placaVeiculo);
+
+        if (veiculo is null)
+            throw new Exception($"Veículo de placa {placaVeiculo} não encontrado");
+
+        var transacaoModel = (await _transacaoRepository.FindAllEstacionadosAsync()).FirstOrDefault(x => x.VeiculoId == veiculo.Id);
+
+        if(transacaoModel is null)
+            throw new Exception($"Veículo de placa {placaVeiculo} não está estacionado");
+
+        transacaoModel.HoraSaida = saida;
+
+        var transacao = _mapper.Map<Transacao, TransacaoViewModel>(transacaoModel);
+        transacaoModel = null;
+
+        return await UpdateAsync(transacao, transacao.Id);
+    }
+
     public async Task<bool> DeleteAsync(int id)
     {
         var transacaoBanco = await GetTransacaoByIdAsync(id);
