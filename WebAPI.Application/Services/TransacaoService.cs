@@ -117,6 +117,14 @@ public class TransacaoService : ITransacaoService
         if (transacaoVeiculoEstacionado is not null && transacao.HoraSaida is null && transacaoVeiculoEstacionado.Id != transacao.Id)
             retorno.Add("Esse veículo já está estacionado");
 
+        if(transacao.HoraSaida is null && estacionamentoBanco is not null)
+        {
+            var veiculosEstacionados = await _transacaoRepository.FindAllEstacionadosByEstacionamentoIdAsync(estacionamentoBanco.Id);
+
+            if (veiculosEstacionados.Count >= estacionamentoBanco.QtdVagas)
+                retorno.Add($"A capacidade máxima do estacionamento {estacionamentoBanco.Id} foi alcançada");
+        }
+
         return retorno;
     }
 
