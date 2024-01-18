@@ -18,7 +18,7 @@ public static class Regex
 
     public static bool ValidaFormatoPlaca(string placa)
     {
-        string pattern = @"^[A-Z]{3}-\d(([A-Z]\d{2})|(\d{3}))$";
+        string pattern = @"^[a-zA-Z]{3}-\d(([a-zA-Z]\d{2})|(\d{3}))$";
         return ValidaPadrao(placa, pattern);
     }
 }
